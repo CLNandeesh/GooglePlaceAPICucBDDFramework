@@ -1,0 +1,465 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-26T14:47:16.119Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2352200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate Add Place functionality",
+        "description": "",
+        "id": "validate-google-place-api-functionality;validate-add-place-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 115600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4436935800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add Place Payload with \"appu\"  \"frenchy\" \"brigade appartment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"appu\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"frenchy\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"brigade appartment\"",
+                  "offset": 41
+                }
+              ],
+              "location": "TC_AddPlace.add_Place_Payload_with(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10592127100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"AddPlaceAPI\" api with \"post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TC_AddPlace.user_calls_api_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2441200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "api call got success with status code \u003c200\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "TC_AddPlace.api_call_got_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 932316800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 24
+                }
+              ],
+              "location": "TC_AddPlace.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34602100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" in response is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 23
+                }
+              ],
+              "location": "TC_AddPlace.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690490600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_id created maps to \"appu\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"appu\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "TC_AddPlace.verify_place_id_created_maps_to_using(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:47:32.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 164300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate Add Place functionality",
+        "description": "",
+        "id": "validate-google-place-api-functionality;validate-add-place-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 125200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13942200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add Place Payload with \"shivu\"  \"spanish\" \"global appartment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shivu\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"spanish\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"global appartment\"",
+                  "offset": 42
+                }
+              ],
+              "location": "TC_AddPlace.add_Place_Payload_with(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316963800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"AddPlaceAPI\" api with \"post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TC_AddPlace.user_calls_api_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "api call got success with status code \u003c200\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "TC_AddPlace.api_call_got_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35264000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 24
+                }
+              ],
+              "location": "TC_AddPlace.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16309300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" in response is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 23
+                }
+              ],
+              "location": "TC_AddPlace.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566000200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_id created maps to \"shivu\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shivu\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 46
+                }
+              ],
+              "location": "TC_AddPlace.verify_place_id_created_maps_to_using(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:47:33.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 364900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate Delete Place funcionslity",
+        "description": "",
+        "id": "validate-google-place-api-functionality;validate-delete-place-funcionslity",
+        "after": [
+          {
+            "result": {
+              "duration": 142900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16229400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Delte Place payload",
+            "match": {
+              "location": "TC_DeletePlace.delte_Place_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 438874700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User calls \"DeletePlaceAPI\" api with \"delete\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"delete\"",
+                  "offset": 37
+                }
+              ],
+              "location": "TC_AddPlace.user_calls_api_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "api call got success with status code \u003c200\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "TC_AddPlace.api_call_got_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21399700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"status\" in response is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 24
+                }
+              ],
+              "location": "TC_AddPlace.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Google Place API functionality",
+    "description": "",
+    "id": "validate-google-place-api-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeAPI.feature",
+    "tags": []
+  }
+]
